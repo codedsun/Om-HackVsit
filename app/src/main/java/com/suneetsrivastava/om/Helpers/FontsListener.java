@@ -17,11 +17,17 @@ public class FontsListener {
     Context c;
     String name;
 
-    FontsListener(Context c, String fontName){
+    public FontsListener(Context c, String fontName){
+        this.c = c;
         typeface = Typeface.createFromAsset(c.getAssets(),"fonts/"+fontName+".ttf");
     }
 
     public Typeface getFont(){
+        return typeface;
+    }
+
+    public Typeface getFontByName(String fontName){
+        typeface = Typeface.createFromAsset(c.getAssets(),"fonts/"+fontName+".ttf");
         return typeface;
     }
 }
