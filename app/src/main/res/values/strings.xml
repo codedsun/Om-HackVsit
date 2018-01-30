@@ -3,6 +3,10 @@
 
     <!--Quotes -->
     <string name="login_quote">Meditate so that mind cannot complicate life!</string>
+    <string name="landing_quote">Meditation brings wisdom :)</string>
     <string name="welString">Take a Deep Breath </string>
-
+    <string name="meditation">Meditaion</string>
+    <string name="calm">Calm</string>
+    <string name="helptosleep">Help to Sleep</string>
+    <string name="music">Music</string>
 </resources>
