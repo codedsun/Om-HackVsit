@@ -3,6 +3,8 @@
 
     <!--Quotes -->
     <string name="login_quote">Meditate so that mind cannot complicate life!</string>
+    <string name="welString">Take a Deep Breath </string>
+
     <string name="landing_quote">Meditation brings wisdom :)</string>
     <string name="welString">Take a Deep Breath </string>
     <string name="meditation">Meditation</string>
@@ -70,5 +72,6 @@
         HOW TO DO IT
         Guided meditation usually comes in the form of audio (file, podcast, CD), and sometimes audio and
         video.</string>
+
 </resources>
 

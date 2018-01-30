@@ -10,16 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Activities.MainActivity" />
-        <activity android:name=".Activities.SplashScreen">
+        <activity android:name=".Activities.SplashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".Activities.Help2sleepmenu" />
+        <activity android:name=".Activities.VisualSleep" />
+        <activity android:name=".ShortStories">
+        </activity>
+        <activity android:name=".SleepStory" />
+        <activity android:name=".Activities.SleepMusic">
+
+        </activity>
+
         <activity android:name=".Activities.LandingActivity" />
         <activity android:name=".Activities.MeditationActivity" />
         <activity android:name=".Activities.MeditationDetails"></activity>
+
     </application>
 
 </manifest>
