@@ -5,4 +5,73 @@
     <string name="login_quote">Meditate so that mind cannot complicate life!</string>
     <string name="welString">Take a Deep Breath </string>
 
+    <string name="landing_quote">Meditation brings wisdom :)</string>
+    <string name="welString">Take a Deep Breath </string>
+    <string name="meditation">Meditation</string>
+    <string name="calm">Calm</string>
+    <string name="helptosleep">Help to Sleep</string>
+    <string name="music">Music</string>
+    <string name="zen_meditation">Zen Meditation (Zazen): - Means “seated Zen” or “seated meditation” HOW TO DO IT It is generally practiced seated on the floor over a mat and cushion, with crossed</string>
+    <string name="vipassana_meditation">means “insight” or “clear seeing”
+        HOW TO DO IT
+        one is to sit on a cushion on the floor, cross-legged, with your spine erect; alternatively, a
+        chair may be used, but the back should not be supported.</string>
+    
+    <string name="mindfullness_meditation">Mindfulness of breathing, practice of intentionally focusing on
+        the present moment
+        HOW TO DO IT
+        Pay close attention to the movement of your breath. When you breath in, be aware that you
+        are breathing in, and how it feels. When you breath out, be aware you are breathing out.</string>
+    
+    <string name="loving_kindness_meditation">(Metta Meditation): - boosting one’s ability to empathize
+        with others; development of positive emotions through compassion, including a more loving
+        attitude towards oneself
+        HOW TO DO IT
+        Sit down in a meditation position, with closed eyes. Develop feeling of kindness and
+        benevolence. Process it by thinking of first oneself then a good friend then a neutral friend
+        then a difficult person and then gradually the entire universe</string>
+    <string name="mantra_meditation">A mantra (OM) is repeated for the purpose of
+        focusing your mind.
+        HOW TO DO IT
+        it is usually practiced sitting with spine erect, and eyes closed. The practitioner then repeats the
+        mantra in his mind, silently, over and over again during the whole session. the mantra is actually
+        whispered very lightly and softly, as an aid to concentration.</string>
+    <string name="transcendtal_meditation">Transcendental Meditation is a specific form of
+        Mantra Meditation introduced by Maharishi Mahesh Yogi. It is a widely practiced form of
+        meditation, many sponsored by the organization, demonstrating the benefits of the
+        practice.
+        HOW TO DO IT
+        TM involves the use of a mantra and is practiced for 15–20 minutes twice per day while
+        sitting with one’s eyes closed.</string>
+    <string name="yoga_meditation">its highest goal spiritual purification and Self-Knowledge.
+        Various Yoga Meditations are: -
+         Third Eye Meditation — focusing the attention on the “spot between the
+        eyebrows”.
+         Chakra Meditation — the practitioner focuses on one of the seven chakras of the
+        body (“centers of energy”).
+         Gazing Meditation (Trataka) — fixing the gaze on an external object, typically a
+        candle, image or a symbol
+         Kundalini Meditation — this is a very complex system of practice. The goal is the
+        awakening of the “kundalini energy”.
+         Kriya Yoga — is a set of energizations, breathing, and meditation exercises taught
+        by Paramahamsa Yogananda.
+         Sound Meditation (Nada Yoga) — focusing on sound. Starts with meditation on
+        “external sounds”, such as calming ambient music, whereby the student focuses all
+        his attention on just hearing, as a help to quieten and collect the mind.
+         Pranayama — breathing regulation. It is not exactly meditation, but an excellent
+        practice to calm the mind and prepare it for meditation.</string>
+    <string name="self_enquiry_meditation">It means to “investigate” our true nature, to find
+        the answer to the “Who am I?”
+        HOW TO DO
+        practice is very simple, but also very subtle. It is there, in some form or another, behind all
+        your thoughts, emotions, memories, and perceptions. There is no special position to
+        practice, although the general suggestions about posture and environment are helpful for
+        beginners.</string>
+    <string name="guided_meditation">It is an easier way to start, and you will find guided meditations
+        based on several of the above traditions.
+        HOW TO DO IT
+        Guided meditation usually comes in the form of audio (file, podcast, CD), and sometimes audio and
+        video.</string>
+
 </resources>
+

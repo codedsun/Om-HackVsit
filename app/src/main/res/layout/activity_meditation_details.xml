@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:CircleProgressView="http://schemas.android.com/apk/tools"
+    android:background="@drawable/main_background">
+
+    <TextView
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OM"
+        android:id="@+id/appTextView"
+        android:gravity="center"
+        android:textSize="35dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <at.grabner.circleprogress.CircleProgressView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            CircleProgressView:cpv_seekMode="true"
+            android:id="@+id/landing_circlularProgress"
+            android:layout_alignParentTop="true"
+            CircleProgressView:cpv_innerContourSize="0dp"
+            CircleProgressView:cpv_maxValue="100"
+            CircleProgressView:cpv_outerContourSize="0dp"
+            CircleProgressView:cpv_showUnit="true"
+            android:layout_centerHorizontal="true"
+            CircleProgressView:cpv_textColor= ""
+            CircleProgressView:cpv_unit="s"
+            CircleProgressView:cpv_unitPosition="right_top"
+            CircleProgressView:cpv_value="0"
+            android:layout_marginTop="20dp" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:weightSum="1.2"
+       android:layout_margin="10dp"
+       android:orientation="horizontal">
+
+       <Button
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           style="@style/Widget.AppCompat.Button.Borderless.Colored"
+           android:text="7-Days" />
+
+       <View
+           android:layout_width="0dp"
+           android:layout_weight="0.1"
+           android:layout_height="wrap_content"/>
+       <ImageButton
+           android:layout_width="0dp"
+           android:layout_weight="0.1"
+           android:layout_gravity="center"
+           android:layout_height="wrap_content"
+           android:background="@drawable/ic_play"/>
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="1.2"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:text="14-Days"/>
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="wrap_content"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_play"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/textViewDetail"
+            android:text="30sp"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+i</LinearLayout>

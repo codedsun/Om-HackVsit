@@ -17,6 +17,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".Activities.Help2sleepmenu" />
         <activity android:name=".Activities.VisualSleep" />
         <activity android:name=".ShortStories">
@@ -25,6 +26,11 @@
         <activity android:name=".Activities.SleepMusic">
 
         </activity>
+
+        <activity android:name=".Activities.LandingActivity" />
+        <activity android:name=".Activities.MeditationActivity" />
+        <activity android:name=".Activities.MeditationDetails"></activity>
+
     </application>
 
 </manifest>
