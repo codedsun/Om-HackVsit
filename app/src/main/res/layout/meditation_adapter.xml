@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="250dp"
+
+    android:layout_width="match_parent">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/meditation_image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Touch to View More"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="10dp"
+        android:textColorHint="@color/common_plus_signin_btn_text_dark_disabled"
+        android:id="@+id/meditation_desc" />
+
+
+</android.support.v7.widget.CardView>

@@ -1,11 +1,13 @@
 package com.suneetsrivastava.om.Activities;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.nightonke.boommenu.BoomButtons.BoomButton;
@@ -13,6 +15,8 @@ import com.nightonke.boommenu.BoomButtons.HamButton;
 import com.nightonke.boommenu.BoomMenuButton;
 import com.nightonke.boommenu.OnBoomListener;
 import com.suneetsrivastava.om.R;
+
+import java.util.ArrayList;
 
 import at.grabner.circleprogress.CircleProgressView;
 import at.grabner.circleprogress.Direction;
@@ -37,6 +41,7 @@ public class LandingActivity extends Activity {
     @BindView(R.id.landing_circlularProgress)
     CircleProgressView circleProgressView;
 
+    ArrayList<String> info = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,6 +76,13 @@ public class LandingActivity extends Activity {
                 @Override
                 public void onClicked(int index, BoomButton boomButton) {
                     Log.e("TAG", "onClicked: "+index );
+                    switch (index){
+                        case 0 : break;
+                        case 1 : startActivity(new Intent(LandingActivity.this, MeditationActivity.class));
+                                break;
+                        case 2 : break;
+                        case 3 : break;
+                    }
                 }
 
                 @Override
